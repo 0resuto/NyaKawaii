@@ -19,7 +19,7 @@ obj.close()
 
 obj_new = wave.open("sample_new.wav", "wb")
 
-obj_new.setnchannels(2)
+obj_new.setnchannels(1)
 obj_new.setsampwidth(2)
 obj_new.setframerate(16000.0)
 
